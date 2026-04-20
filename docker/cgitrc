@@ -1,0 +1,25 @@
+css=/cgit.css
+logo=/cgit.png
+favicon=/cgit.png
+
+root-title=Git Repositories
+root-desc=public repositories
+root-readme=
+
+virtual-root=/
+scan-path=/var/lib/git/repos
+
+remove-suffix=1
+enable-http-clone=1
+enable-index-owner=0
+enable-commit-graph=1
+snapshots=tar.gz zip
+
+clone-url=https://git.example.com/$CGIT_REPO_URL
+
+cache-root=/var/cache/cgit
+cache-size=5000
+cache-static-ttl=60
+cache-dynamic-ttl=30
+cache-repo-ttl=30
+cache-root-ttl=30
